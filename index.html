@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#" data-tab="home" id="main-logo">Sweet Dreams</a>
+        </div>
+        <div class="nav-links-wrapper">
+            <ul id="nav-links" class="nav-links">
+                <li class="nav-item">
+                    <a href="#" data-tab="shop">Shop</a>
+                    <ul class="sub-nav-links">
+                        <li><a href="#" data-tab="our-cookies">Our Cookies</a></li>
+                        <li><a href="#" data-tab="gift-cards">Gift Cards</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" data-tab="our-story">Our Story</a></li>
+                <li class="nav-item"><a href="#" data-tab="contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    
+    <div class="fullscreen-bg">
+        <img src="https://buynatural.com.au/wp-content/uploads/2023/03/close-up-shot-blonde-curly-haired-woman-eats-cookies-with-chocolate-bites-deicious-snack-keeps-eyes-closed-has-sweet-tooth-dressed-casually-isolated-white-background-unhealthy-eating.jpg" alt="Cookie Background">
+    </div>
+
+    <div class="tab-content" id="home-content">
+        <header id="home">
+            <h1>Welcome to Sweet Dreams</h1>
+            <p>Your favorite cookie shop!</p>
+        </header>
+    </div>
+
+    <div class="tab-content small-tab" id="our-cookies-content" style="display: none;">
+        <section id="our-cookies">
+            <h2>Our Cookies</h2>
+            <div class="cookies-gallery">
+                <div class="cookie">
+                    <h3>Classic Chocolate Chip</h3>
+                    <img src="https://craigscookies.com/cdn/shop/products/Classic9662_LR_879c0306-0bc5-495a-a18c-b3189b4345cc_650x@2x.jpg?v=1680925673" alt="Classic Chocolate Chip Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+                <div class="cookie">
+                    <h3>Gluten Friendly Classic Chocolate Chip</h3>
+                    <img src="https://craigscookies.com/cdn/shop/products/Classic9662_LR_879c0306-0bc5-495a-a18c-b3189b4345cc_650x@2x.jpg?v=1680925673" alt="Gluten Friendly Chocolate Chip Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+                <div class="cookie">
+                    <h3>Strawberries and Cream</h3>
+                    <img src="https://craigscookies.com/cdn/shop/files/ScreenShot2023-05-01at3.28.18PM_650x@2x.png?v=1682969413" alt="Strawberries and Cream Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+                <div class="cookie">
+                    <h3>Apple Pie</h3>
+                    <img src="https://craigscookies.com/cdn/shop/products/ApplePie_650x@2x.jpg?v=1681754170" alt="Apple Pie Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+                <div class="cookie">
+                    <h3>Birthday</h3>
+                    <img src="https://craigscookies.com/cdn/shop/products/ScreenShot2021-10-25at1.38.54PM_650x@2x.png?v=1635183604" alt="Birthday Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+                <div class="cookie">
+                    <h3>Brownie</h3>
+                    <img src="https://craigscookies.com/cdn/shop/products/BrownieBlast_650x@2x.jpg?v=1604595850" alt="Brownie Cookie">
+                    <p>$18 - $35 (6 packs or 12 packs)</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-content small-tab" id="gift-cards-content" style="display: none;">
+        <section id="gift-cards">
+            <h2>Gift Cards</h2>
+            <div class="gift-card-details">
+                <img src="https://www.fatandweirdcookie.com/cdn/shop/products/image_9e1b4c5a-fb2e-455f-bc7e-95c4aafce933.png?v=1677191810" alt="Online Gift Card">
+                <p>ONLINE GIFT CARD</p>
+                <p>$10 - $100</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-content" id="our-story-content" style="display: none;">
+        <section id="our-story" class="story-section">
+            <div class="story-text">
+                <h2>Our Story</h2>
+                <p>Greetings! Welcome to Sweet Dreams, where every cookie is a dream come true. Allow me to introduce you to the enchanting world of Sweet Dreams Cookies through a journey inspired by my passion for baking.</p>
+                <p>I am Busra, the owner of Sweet Dreams, where these delectable cookies embody more than just flavors—they embody a sweet symphony of memories and childhood dreams. Originating from the heart of (Your City/Location), my love for baking was nurtured in moments shared with my loved ones, echoing the warmth and joy that each cookie aims to deliver.</p>
+                <p>At Sweet Dreams, each batch of cookies is a labor of love, carrying with it the essence of nostalgia and the magic of creation. Since our inception in (Year Started), we have poured our hearts into perfecting each recipe, ensuring that every bite of our cookies encapsulates the spirit of Sweet Dreams.</p>
+                <p>Dedicated to conjuring flavor and excitement, our cookies are bursting with a delightful blend of ingredients that promise to tantalize your taste buds and transport you to a world of sweetness. From the classic chocolate chip to innovative creations, each cookie is a testament to our commitment to creating moments of joy and indulgence.</p>
+                <p>One of the most gratifying aspects of my journey is welcoming back familiar faces—the cherished friends and loyal patrons who have become an integral part of the Sweet Dreams family. Community lies at the core of Sweet Dreams, and with every order, you become a cherished member of our ever-expanding family.</p>
+                <p>I extend my heartfelt gratitude to you for supporting Sweet Dreams and for being a part of this whimsical cookie adventure. Your patronage fuels our baking endeavors, and I am thrilled to have you join us in savoring the dreams we create, one cookie at a time.</p>
+                <p>Before you depart, would you care to indulge in my personal favorite creation? It's a delightful fusion of (describe your favorite cookie).</p>
+            </div>
+            <div class="story-image">
+                <img src="https://media.istockphoto.com/id/673323662/photo/beautiful-baker-holding-a-cookies-package.jpg?s=612x612&w=0&k=20&c=xgAQvkKyCtGlBM6r-XU0uRqab0d3-z2nB-k73-OSr0k=" alt="Sweet Dreams Image">
+            </div>
+        </section>
+    </div>
+
+    <div class="tab-content" id="contact-content" style="display: none;">
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name
+                            "email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message:</label></td>
+                            <td><textarea id="message" name="message" rows="5" required></textarea></td>
+                        </tr>
+                    </table>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    
+        <footer>
+            <p>&copy; 2024 Sweet Dreams. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    
+    </html>
+    
